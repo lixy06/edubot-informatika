@@ -1,0 +1,176 @@
+{
+  "topik_1": [
+    {
+      "id": 1,
+      "question": "Apa yang dimaksud dengan jaringan komputer?",
+      "options": [
+        {"key": "A", "text": "Kumpulan kabel yang terisolasi tanpa aliran data"},
+        {"key": "B", "text": "Sistem telekomunikasi yang memungkinkan antar komputer saling bertukar data"},
+        {"key": "C", "text": "Perangkat keras komputer yang berdiri sendiri tanpa koneksi"},
+        {"key": "D", "text": "Aplikasi peramban web untuk membuka situs internet"}
+      ],
+      "correct": "B",
+      "explanation": "Jaringan komputer adalah sistem yang menghubungkan dua atau lebih perangkat komputer untuk saling bertukar data dan berbagi sumber daya."
+    },
+    {
+      "id": 2,
+      "question": "Perangkat jaringan yang berfungsi menghubungkan dua jaringan dengan subnet berbeda adalah...",
+      "options": [
+        {"key": "A", "text": "Switch"},
+        {"key": "B", "text": "Hub"},
+        {"key": "C", "text": "Router"},
+        {"key": "D", "text": "Modem"}
+      ],
+      "correct": "C",
+      "explanation": "Router bertugas merutekan paket data antar-jaringan berbeda (berbeda network ID/subnet) berdasarkan IP Address."
+    },
+    {
+      "id": 3,
+      "question": "Kabel yang umum digunakan pada jaringan LAN lokal dengan konektor RJ-45 adalah kabel...",
+      "options": [
+        {"key": "A", "text": "Coaxial"},
+        {"key": "B", "text": "Twisted Pair (UTP/STP)"},
+        {"key": "C", "text": "Fiber Optic"},
+        {"key": "D", "text": "VGA"}
+      ],
+      "correct": "B",
+      "explanation": "Kabel Unshielded Twisted Pair (UTP) dengan konektor RJ-45 adalah standar kabel transmisi pada Local Area Network (LAN)."
+    },
+    {
+      "id": 4,
+      "question": "Komponen yang bertindak sebagai antarmuka fisik penghubung komputer ke jaringan disebut...",
+      "options": [
+        {"key": "A", "text": "NIC (Network Interface Card)"},
+        {"key": "B", "text": "Processor"},
+        {"key": "C", "text": "RAM"},
+        {"key": "D", "text": "Hard Disk"}
+      ],
+      "correct": "A",
+      "explanation": "NIC (Network Interface Card / Kartu Jaringan) adalah perangkat keras penghubung antara motherboard dengan media transmisi jaringan."
+    },
+    {
+      "id": 5,
+      "question": "Jaringan nirkabel Wi-Fi bekerja menggunakan standar protokol...",
+      "options": [
+        {"key": "A", "text": "IEEE 802.3"},
+        {"key": "B", "text": "IEEE 802.11"},
+        {"key": "C", "text": "IEEE 802.15"},
+        {"key": "D", "text": "IEEE 802.1"}
+      ],
+      "correct": "B",
+      "explanation": "Standar IEEE 802.11 adalah spesifikasi teknis untuk jaringan nirkabel lokal (Wireless LAN / Wi-Fi)."
+    },
+    {
+      "id": 6,
+      "question": "Perangkat yang berfungsi mengubah sinyal analog menjadi digital dan sebaliknya adalah...",
+      "options": [
+        {"key": "A", "text": "Switch"},
+        {"key": "B", "text": "Modem"},
+        {"key": "C", "text": "Repeater"},
+        {"key": "D", "text": "Access Point"}
+      ],
+      "correct": "B",
+      "explanation": "Modem singkatan dari Modulator Demodulator, berfungsi mengubah sinyal digital menjadi analog dan sebaliknya."
+    },
+    {
+      "id": 7,
+      "question": "Keunggulan utama jaringan kabel dibandingkan jaringan nirkabel (Wi-Fi) adalah...",
+      "options": [
+        {"key": "A", "text": "Lebih praktis dan mudah dipindahkan"},
+        {"key": "B", "text": "Koneksi lebih stabil dan minim interferensi gelombang"},
+        {"key": "C", "text": "Biaya kabel selalu gratis"},
+        {"key": "D", "text": "Dapat menjangkau seluruh dunia tanpa alat tambahan"}
+      ],
+      "correct": "B",
+      "explanation": "Jaringan kabel menawarkan kecepatan lebih konsisten, latensi rendah, serta bebas dari gangguan gelombang radio."
+    },
+    {
+      "id": 8,
+      "question": "Komputer yang bertugas melayani dan menyediakan sumber daya di jaringan disebut...",
+      "options": [
+        {"key": "A", "text": "Client"},
+        {"key": "B", "text": "Server"},
+        {"key": "C", "text": "User"},
+        {"key": "D", "text": "Terminal"}
+      ],
+      "correct": "B",
+      "explanation": "Komputer Server bertindak sebagai penyedia layanan, basis data, berkas, dan otentikasi kepada komputer Client."
+    },
+    {
+      "id": 9,
+      "question": "Perangkat switch mendistribusikan data pada jaringan LAN berdasarkan...",
+      "options": [
+        {"key": "A", "text": "MAC Address fisik perangkat"},
+        {"key": "B", "text": "Nama pemilik komputer"},
+        {"key": "C", "text": "Kecepatan processor"},
+        {"key": "D", "text": "Ukuran layar monitor"}
+      ],
+      "correct": "A",
+      "explanation": "Switch bekerja pada Data Link Layer (Layer 2 OSI) dan menggunakan tabel MAC Address untuk meneruskan frame ke port tujuan."
+    },
+    {
+      "id": 10,
+      "question": "Jaringan komputer yang mencakup area terbatas seperti gedung sekolah SMK Telkom disebut...",
+      "options": [
+        {"key": "A", "text": "WAN (Wide Area Network)"},
+        {"key": "B", "text": "MAN (Metropolitan Area Network)"},
+        {"key": "C", "text": "LAN (Local Area Network)"},
+        {"key": "D", "text": "SAN (Storage Area Network)"}
+      ],
+      "correct": "C",
+      "explanation": "LAN (Local Area Network) adalah jaringan yang dibatasi oleh area geografis kecil seperti laboratorium, ruangan, atau sekolah."
+    }
+  ],
+  "topik_2": [
+    {
+      "id": 1,
+      "question": "Panjang total bit pada alamat IP versi 4 (IPv4) adalah...",
+      "options": [
+        {"key": "A", "text": "16 bit"},
+        {"key": "B", "text": "32 bit"},
+        {"key": "C", "text": "64 bit"},
+        {"key": "D", "text": "128 bit"}
+      ],
+      "correct": "B",
+      "explanation": "IPv4 terdiri dari 32 bit biner yang dibagi menjadi 4 oktet desimal (masing-masing 8 bit)."
+    },
+    {
+      "id": 2,
+      "question": "Subnet mask default untuk IP Address Kelas C (misal 192.168.1.1) adalah...",
+      "options": [
+        {"key": "A", "text": "255.0.0.0"},
+        {"key": "B", "text": "255.255.0.0"},
+        {"key": "C", "text": "255.255.255.0"},
+        {"key": "D", "text": "255.255.255.255"}
+      ],
+      "correct": "C",
+      "explanation": "Kelas C menggunakan 24 bit awal untuk Network ID sehingga subnet mask standarnya adalah 255.255.255.0 (/24)."
+    }
+  ],
+  "topik_3": [
+    {
+      "id": 1,
+      "question": "Perintah pada command prompt untuk menguji konektivitas antar dua perangkat adalah...",
+      "options": [
+        {"key": "A", "text": "ping"},
+        {"key": "B", "text": "cls"},
+        {"key": "C", "text": "dir"},
+        {"key": "D", "text": "exit"}
+      ],
+      "correct": "A",
+      "explanation": "Perintah 'ping' mengirimkan paket ICMP Echo Request untuk menguji keterhubungan dan latensi ke host tujuan."
+    },
+    {
+      "id": 2,
+      "question": "Protokol yang memberikan konfigurasi alamat IP secara otomatis kepada perangkat client adalah...",
+      "options": [
+        {"key": "A", "text": "DNS"},
+        {"key": "B", "text": "DHCP"},
+        {"key": "C", "text": "HTTP"},
+        {"key": "D", "text": "FTP"}
+      ],
+      "correct": "B",
+      "explanation": "DHCP (Dynamic Host Configuration Protocol) bertugas membagikan IP address dan konfigurasi jaringan otomatis."
+    }
+  ]
+}

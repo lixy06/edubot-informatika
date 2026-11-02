@@ -1,0 +1,47 @@
+{
+  "faq": [
+    {
+      "intent": "pengertian_jaringan",
+      "keywords": ["apa itu jaringan", "pengertian jaringan", "definisi jaringan", "jaringan komputer"],
+      "answer": "🌐 *Jaringan Komputer* adalah sistem telekomunikasi yang menghubungkan dua atau lebih perangkat komputer untuk saling bertukar data, berbagi sumber daya (file, printer), dan berkomunikasi secara efisien.",
+      "related_topic": "Topik 1: Mengenal Jaringan"
+    },
+    {
+      "intent": "pengertian_lan",
+      "keywords": ["apa itu lan", "pengertian lan", "local area network", "jaringan lokal"],
+      "answer": "🏢 *Local Area Network (LAN)* adalah jaringan komputer yang mencakup wilayah geografis lokal yang terbatas, seperti laboratorium sekolah SMK 2 Telkom Medan, kantor, atau rumah. Menggunakan kabel UTP atau Wi-Fi.",
+      "related_topic": "Topik 1: Mengenal Jaringan"
+    },
+    {
+      "intent": "fungsi_router",
+      "keywords": ["apa itu router", "fungsi router", "alat router", "kegunaan router"],
+      "answer": "📡 *Router* adalah perangkat jaringan yang bertugas menghubungkan dua atau lebih jaringan dengan subnet/network ID berbeda (misalnya menghubungkan jaringan LAN sekolah ke jaringan Internet global).",
+      "related_topic": "Topik 1: Komponen Jaringan"
+    },
+    {
+      "intent": "fungsi_switch",
+      "keywords": ["apa itu switch", "fungsi switch", "beda switch hub"],
+      "answer": "🔀 *Switch* berfungsi mendistribusikan data ke perangkat-perangkat di dalam satu jaringan LAN secara cerdas menggunakan alamat fisik (*MAC Address*), sehingga menghindari tabrakan data (*collision*).",
+      "related_topic": "Topik 1: Komponen Jaringan"
+    },
+    {
+      "intent": "fungsi_ip_address",
+      "keywords": ["apa itu ip", "fungsi ip", "ip address", "alamat ip", "ipv4"],
+      "answer": "🔢 *IP Address (Internet Protocol Address)* adalah identitas angka unik yang diberikan kepada setiap perangkat yang terhubung ke jaringan agar dapat saling mengenali dan bertukar paket data.",
+      "related_topic": "Topik 2: Konfigurasi Perangkat"
+    },
+    {
+      "intent": "cara_kerja_ping",
+      "keywords": ["apa itu ping", "perintah ping", "fungsi ping", "rto", "request timed out"],
+      "answer": "⚡ *Perintah Ping* (Packet Internet Gopher) digunakan untuk menguji apakah komputer Anda dapat terhubung ke host tujuan. Ping mengirim paket sinyal ICMP dan mengukur waktu tempuh (*latency/ms*).",
+      "related_topic": "Topik 3: Troubleshooting Jaringan"
+    },
+    {
+      "intent": "fungsi_dhcp",
+      "keywords": ["dhcp", "apa itu dhcp", "fungsi dhcp"],
+      "answer": "🔄 *DHCP (Dynamic Host Configuration Protocol)* adalah layanan yang otomatis memberikan konfigurasi IP Address, Gateway, dan DNS kepada perangkat client saat terhubung ke jaringan.",
+      "related_topic": "Topik 3: Protokol Jaringan"
+    }
+  ],
+  "fallback_response": "⚠️ *Pertanyaan Berada di Luar Jangkauan*\n\nMaaf, EduBot dikhususkan untuk menjawab pertanyaan seputar materi pembelajaran *Jaringan Komputer dan Internet (Informatika Kelas X TKJ)*.\n\nSilakan ajukan pertanyaan terkait: konsep jaringan, LAN, komponen (router/switch/NIC), IP address, atau protokol jaringan. Anda juga dapat memilih pertanyaan cepat di bawah ini:"
+}

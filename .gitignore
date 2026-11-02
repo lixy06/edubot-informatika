@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Environment Variables (PENTING: Jangan upload token ke GitHub)
+.env
+
+# Database file (agar database dibuat bersih di server)
+database/*.sqlite
+database/*.db
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
