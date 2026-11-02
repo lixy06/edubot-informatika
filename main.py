@@ -1,5 +1,8 @@
 import sys
+import os
 import logging
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 
 # Setup logging
@@ -11,6 +14,25 @@ logger = logging.getLogger(__name__)
 
 import config
 from database.init_db import init_db
+
+# Dummy HTTP Server untuk kompatibilitas Cloud Hosting (Render, Koyeb, dll)
+class HealthCheckHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-type", "text/plain")
+        self.end_headers()
+        self.wfile.write(b"EduBot is running healthy!")
+
+    def log_message(self, format, *args):
+        pass  # Jangan kotori log dengan request healthcheck
+
+def start_health_server():
+    port = int(os.getenv("PORT", "8080"))
+    try:
+        server = HTTPServer(("0.0.0.0", port), HealthCheckHandler)
+        server.serve_forever()
+    except Exception as e:
+        logger.warning(f"Health server error: {e}")
 
 # Import Handlers
 from handlers.start_handler import start_command, main_menu_callback
@@ -38,6 +60,9 @@ from handlers.progres_handler import progres_menu_message
 from handlers.info_handler import profile_menu_message, help_menu_message
 
 def main():
+    # 0. Jalankan Health Server di background (untuk Render/Cloud)
+    threading.Thread(target=start_health_server, daemon=True).start()
+
     # 1. Inisialisasi Database
     init_db()
 
